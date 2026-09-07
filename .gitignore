@@ -1,0 +1,10 @@
+# Generated figures. Every one is reproduced in seconds by the scripts in code/
+# from the cached results committed alongside them, so they are outputs, not
+# sources. The directory itself is kept so the scripts have somewhere to write.
+code/figures/*
+!code/figures/.gitkeep
+
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

@@ -1,0 +1,8 @@
+# Re-running the model fits, on top of requirements.txt.
+# The EM fits are written in JAX; scikit-learn is used for the PCA warm start and
+# the decoding diagnostics; pynwb reads the raw recordings from DANDI.
+-r requirements.txt
+jax
+scikit-learn
+pynwb
+nbformat
